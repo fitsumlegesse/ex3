@@ -25,7 +25,7 @@ console.log(db_admin);
 var monk = require('monk');
 //connection to Atlas
 // const uri = "mongodb+srv://test_admin:ABCD1234@cluster0-ognr0.gcp.mongodb.net/test_db?retryWrites=true&w=majority";
-var uri = "mongodb+srv://" + db_admin.username + ":" + db_admin.password + "@cluster0-ognr0.gcp.mongodb.net/test_db?retryWrites=true&w=majority";
+var uri = "mongodb+srv://" + db_admin.username + ":" + db_admin.password + "@cluster0-ltdty.gcp.mongodb.net/test_db?retryWrites=true&w=majority";
 var db = monk(uri);
 
 db.then(()=>{
